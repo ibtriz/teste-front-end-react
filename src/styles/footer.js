@@ -39,7 +39,7 @@ export const TextContainer = styled.div`
   }
   float: right;
   display: flex;
-  width: 50%; /* largura do box */
+  width: 50%;
   flex-direction: column;
   justify-content: flex-end;
   gap: ${px2vw(36)};

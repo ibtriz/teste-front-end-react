@@ -29,7 +29,7 @@ display: flex;
   display: flex;
   justify-content: center;
   align-content: space-between; 
-  gap: ${px2vw(40)};
+  gap: ${px2vw(101)};
   box-sizing: content-box;
 }
 
@@ -46,6 +46,8 @@ position: absolute;
   margin-top: ${px2vw(50)};
   padding-top: 0;
   padding: 2;
+  display: flex;
+  justify-content: center;
 }
 
 .card-car {
@@ -53,14 +55,14 @@ box-sizing: content-box;
   border: 1px solid #1d2527;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: ${px2vw(24)};
-  width: ${px2vw(230)};
-  height: ${px2vw(340)};
+  width: ${px2vw(281)};
+  height: ${px2vw(362)};
   margin-left: ${px2vw(24)};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: ${px2vw(15)};
+  align-items: flex-start;
+  padding: ${px2vw(40)};
 }
 .card-car span {
   display: flex;
