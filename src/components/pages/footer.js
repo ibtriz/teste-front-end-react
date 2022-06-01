@@ -1,7 +1,10 @@
+import { FooterContainer, TextContainer } from "../../styles/footer";
 
 export function Footer() {
   return (
-    <Footer>
+    <FooterContainer>
+      <TextContainer>
+        <div className="content">
       <h1>Mustang</h1>
       <p>
         O Ford Mustang é um automóvel desportivo produzido pela Ford Motor
@@ -11,6 +14,8 @@ export function Footer() {
         da Ford
       </p>
       <button>Ver carros</button>
-    </Footer>
+      </div>
+     </TextContainer>
+    </FooterContainer>
   );
 }
