@@ -1,5 +1,7 @@
 
 import car1 from "../../assets/car1.png";
+import car2 from "../../assets/car2.png";
+import car3 from "../../assets/car3.png";
 import iconDate from "../../assets/icons/Vector.png";
 import iconSpeed from "../../assets/icons/Vector-1.png";
 import iconPower from "../../assets/icons/Vector-2.png";
@@ -26,7 +28,7 @@ export function Cards(){
             </div>
 
             <div className='card-car'>
-                <img src={car1} alt='car' className='car-img'></img>
+                <img src={car2} alt='car' className='car-img'></img>
                 <h3>Mustang</h3>
             <span><img class="icon" alt='icon' src={iconDate}></img>2015</span>
             <span><img class="icon" alt='icon' src={iconSpeed}></img>180 Km/h</span>
@@ -38,7 +40,7 @@ export function Cards(){
             </div>
 
             <div className='card-car'>
-                <img src={car1} alt='car' className='car-img'></img>
+                <img src={car3} alt='car' className='car-img'></img>
                 <h3>Mustang</h3>
             <span><img class="icon" alt='icon' src={iconDate}></img>2015</span>
             <span><img class="icon" alt='icon' src={iconSpeed}></img>180 Km/h</span>
