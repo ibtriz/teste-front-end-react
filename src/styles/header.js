@@ -7,7 +7,8 @@ export const HeaderContainer = styled.header`
   background-position: bottom;
   background-size: cover;
   width: 100%;
-  height: 95vh;
+  height: ${px2vw(772)};
+  top: 0;
   border-bottom: ${px2vw(100)};
   a {
     color: #fff;

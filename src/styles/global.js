@@ -15,7 +15,7 @@ export const Global = createGlobalStyle`
     font-size: ${px2vw(24)};
 
     @media (min-width: 360px) {
-      font-size: ${px2vw(18)};
+      font-size: ${px2vw(20)};
     }
   }
 `;
