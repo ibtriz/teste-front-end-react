@@ -4,7 +4,7 @@ import px2vw from "./utils/px2vh";
 
 export const HeaderContainer = styled.header`
   background-image: url(${background});
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   width: 100%;
   height: ${px2vw(772)};

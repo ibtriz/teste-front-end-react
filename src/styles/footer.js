@@ -1,38 +1,21 @@
 import styled from "styled-components";
-import backgroundDesktop from "../assets/footer-cover.jpg";
+import background from "../assets/footer-cover.jpg";
 import px2vw from "./utils/px2vh";
-import background2 from "../assets/mobile-background-footer.png";
 
 export const FooterContainer = styled.footer`
-  background-image: url(${backgroundDesktop});
+  background-image: url(${background});
   background-position: bottom;
   background-size: cover;
-  bottom: 0;
   width: 100%;
   height: ${px2vw(500)};
   bottom: 0;
   margin-top: ${px2vw(80)};
-  @media (max-width: 510px) {
-    background-position: bottom;
-    background-size: cover;
-    background-image: url(${background2});
-    width: 100%;
-    height: ${px2vw(1200)};
-    bottom: 0;
-    padding: 0;
-    margin-top: ${px2vw(80)};
-  }
 `;
 
 export const TextContainer = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@200&display=swap");
   font-family: "Montserrat", sans-serif;
   padding: ${px2vw(30)} ${px2vw(60)};
-  @media (max-width: 510px){
-    width: 100%;
-    padding: ${px2vw(90)} ${px2vw(100)};
-    line-height: 200%;
-    font-size: 16px;
-  }
   h1 {
     font-family: "Montserrat";
     font-style: normal;
