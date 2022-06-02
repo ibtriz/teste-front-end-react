@@ -22,7 +22,7 @@ export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: ${px2vw(40)};
+  gap: ${px2vw(70)};
   padding: ${px2vw(25)};
   font-size: ${px2vw(20)};
   .logo {
