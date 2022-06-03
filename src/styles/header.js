@@ -3,7 +3,7 @@ import background from "../assets/background-car.png";
 import px2vw from "./utils/px2vh";
 
 export const HeaderContainer = styled.header`
-  background-image: url(${background});
+ background-image: url(${background});
   background-position: top;
   background-size: cover;
   width: 100%;
